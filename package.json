@@ -1,0 +1,24 @@
+{
+  "name": "watch-box",
+  "version": "1.0.0",
+  "description": "Find all the latest movies and tv shows",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-gordon98/watch-box.git"
+  },
+  "author": "Chris Gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-gordon98/watch-box/issues"
+  },
+  "homepage": "https://github.com/christopher-gordon98/watch-box#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
