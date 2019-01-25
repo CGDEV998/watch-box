@@ -8,8 +8,10 @@
 </head>
 <body class="main">
   <% include ../partials/nav.ejs %>
-  <div>
-    <p>Hello World</p>
+  <div class="preview-container">
+    <% for(var i=0; i<movies.length; i++) {%>
+          <% include ../partials/preview.ejs %>
+    <% }%>
   </div>
 </body>
 </html>
