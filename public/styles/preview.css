@@ -1,4 +1,4 @@
-.preview-wrapper {
+.preview-card {
   height: 20em;
   width: 13em;
   margin: 10px;
@@ -14,13 +14,13 @@
 .movie-title {
   position: absolute;
   width: 84%;
-  height: 25%;
-  top: 75%;
+  height: 15%;
+  bottom: 0;
   text-align: center;
   font-size: 1em;
   margin: auto;
   padding: 0 1em;
   color: #FFFFFF;
-  line-height: 4.5em;
+  line-height: 3em;
   background-color: rgba(0, 0, 0, 0.65);
 }
