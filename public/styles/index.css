@@ -3,6 +3,8 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: rgba(240, 240, 240, 1);
+  width: 90%;
+  margin: 0 auto;
 }
 
 .top-movies-header {
@@ -15,8 +17,34 @@
 }
 .top-movies-container {
   display: flex;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
   width: 100%;
   background-color: rgba(250, 250, 250, 1);
   box-shadow: 0em 0em 0.6em 0.3em rgba(220, 220, 220, 1);
+}
+
+.fade {
+  height: 20em;
+  min-width: 4em;
+  margin: 0.6em 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.fade-left {
+  background: linear-gradient(to right, rgba(250, 250, 250, 1), rgba(250, 250, 250, 0));
+  left: 5%;
+}
+
+.fade-right {
+  background: linear-gradient(to left, rgba(250, 250, 250, 1), rgba(250, 250, 250, 0));
+  right: 5%;
+}
+.hold-card {
+  height: 20em;
+  min-width: 3em;
+  margin: 10px;
+  position: relative;
+  background-color: rgba(250, 250, 250, 1);
 }

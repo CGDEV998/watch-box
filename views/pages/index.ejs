@@ -9,9 +9,13 @@
     <% include ../partials/nav.ejs %>
     <%- include("../partials/sectionTitle.ejs",{ title:"Popular" }) %>
     <div class="top-movies-container">
+      <div class="fade fade-right"></div>
+      <div class="hold-card"></div>
       <% for(let i=0; i < trendingMovies.length; i++) { %>
       <%    include ../partials/preview.ejs %>
       <% } %>
+       <div class="hold-card"></div>
+      <div class="fade fade-left"></div>
     </div>
   </body>
 </html>
