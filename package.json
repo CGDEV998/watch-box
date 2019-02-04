@@ -18,12 +18,8 @@
   },
   "homepage": "https://github.com/christopher-gordon98/watch-box#readme",
   "dependencies": {
-    "bluebird": "^3.5.3",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "request": "^2.88.0"
-  },
-  "devDependencies": {
-    "simple-get": "^3.0.3"
   }
 }

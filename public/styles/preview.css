@@ -7,7 +7,7 @@
 }
 
 #movieCard:hover #movieTitle {
-  visibility: visible;
+  height: 14%;
 }
 
 .movie-graphic {
@@ -17,8 +17,8 @@
 
 .movie-title {
   position: absolute;
-  width: 84%;
-  height: 15%;
+  width: 84.5%;
+  height: 0%;
   bottom: 0;
   text-align: center;
   font-size: 1em;
@@ -27,5 +27,5 @@
   color: #FFFFFF;
   line-height: 3em;
   background-color: rgba(0, 0, 0, 0.65);
-  visibility: hidden;
+  transition: height 1s;
 }
