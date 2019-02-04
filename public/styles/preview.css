@@ -1,9 +1,13 @@
-.preview-card {
+.movie-card {
   height: 20em;
-  width: 13em;
+  min-width: 13em;
   margin: 10px;
   flex-direction: row;
   position: relative;
+}
+
+#movieCard:hover #movieTitle {
+  visibility: visible;
 }
 
 .movie-graphic {
@@ -23,4 +27,5 @@
   color: #FFFFFF;
   line-height: 3em;
   background-color: rgba(0, 0, 0, 0.65);
+  visibility: hidden;
 }
