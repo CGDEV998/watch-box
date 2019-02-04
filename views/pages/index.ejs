@@ -9,7 +9,7 @@
     <% include ../partials/nav.ejs %>
     <%- include("../partials/sectionTitle.ejs",{ title:"Popular" }) %>
     <div class="top-movies-container">
-      <% for(var i=0; i<movies.length; i++) { %>
+      <% for(let i=0; i < trendingMovies.length; i++) { %>
       <%    include ../partials/preview.ejs %>
       <% } %>
     </div>

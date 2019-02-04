@@ -1,6 +1,6 @@
-<div class="preview-card" key={movies[i].id}>
-  <a class="movie-link" href="/">
-    <img class="movie-graphic" src=<%= movies[i].graphicLink %>>
-    <p class="movie-title"><%- movies[i].title %></p>
+<div class="movie-card" id="movieCard" key={trendingMovies[i].id}>
+  <a class="movie-link" href=<%= "https://www.themoviedb.org/movie/" + trendingMovies[i].id %>>
+    <img class="movie-graphic" src=<%= "https://image.tmdb.org/t/p/original" + trendingMovies[i].poster_path %>>
+    <p class="movie-title" id="movieTitle"><%- trendingMovies[i].title %></p>
   </a>
 </div>
