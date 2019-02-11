@@ -19,6 +19,7 @@
   "homepage": "https://github.com/christopher-gordon98/watch-box#readme",
   "dependencies": {
     "ejs": "^2.6.1",
+    "eslint": "^3.0.1",
     "express": "^4.16.4",
     "request": "^2.88.0"
   }
